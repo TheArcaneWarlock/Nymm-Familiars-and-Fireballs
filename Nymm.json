@@ -2,12 +2,12 @@
 	"_meta": {
 		"sources": [{
 			"json": "Nymm",
-			"abbreviation": "NYMM",
+			"abbreviation": "Nymm",
 			"full": "Nymm; Familiars and Fireballs",
 			"authors": [
 				"Arcane"
 			],
-			"version": "1.0",
+			"version": "2.0",
 			"url": "https://raw.githubusercontent.com/TheArcaneWarlock/Nymm-Familiars-and-Fireballs/master/Nymm.json",
 			"targetSchema": "1.2.0"
 		}],
@@ -171,7 +171,6 @@
 					"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}4 ({@damage 1d4+2}) fire damage."
 				]
 			}],
-			"page": 2,
 			"familiar": true,
 			"variant": [{
 				"type": "variant",
