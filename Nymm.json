@@ -15,7 +15,7 @@
 	},
 	"monster": [{
 			"source": "Nymm",
-			"name": "Mindwitness Familiar",
+			"name": "Lesser Mindwitness",
 			"size": "T",
 			"type": "abberation",
 			"alignment": [
@@ -61,7 +61,7 @@
 			"trait": [{
 				"name": "Telepathic Hub",
 				"entries": [
-					"When the mindwitness receives a telepathic message, it can telepathically share that message with up to seven other creatures within 600 feet of it that it can see."
+					"When the Lesser Mindwitness receives a telepathic message, it can telepathically share that message with up to seven other creatures within 600 feet of it that it can see."
 				]
 			}],
 			"action": [{
@@ -79,39 +79,34 @@
 				{
 					"name": "Eye Rays",
 					"entries": [
-						"Eye Rays. The mindwitness shoots one of the following magical eye rays at random, choosing one target it can see within 120 feet of it:",
+						"Eye Rays. The Lesser Mindwitness shoots one of the following magical eye rays at random, choosing one target it can see within 120 feet of it:",
 						"1. Aversion Ray: The targeted creature must make a DC 13 Charisma saving throw. On a failed save, the target has disadvantage on attack rolls for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
 						"2. Fear Ray: The targeted creature must succeed on a DC 13 Wisdom saving throw or be {@condition frightened} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
 						"3. Psychic Ray: The target must succeed on a DC 13 Intelligence saving throw or take 9 ({@damage 2d8}) psychic damage.",
 						"4. Slowing Ray: The targeted creature must make a DC 13 Dexterity saving throw. On a failed save, the target's speed is halved for 1 minute. In addition, the creature can't take reactions, and it can take either an action or a bonus action on its turn but not both. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
 						"5. Stunning Ray: The targeted creature must succeed on a DC 13 Constitution saving throw or be {@condition stunned} for 1 minute. The target can repeat the saving throw at the start of each of its turns, ending the effect on itself on a success.",
-						"6. Telekinetic Ray: If the target is a creature, it must make a DC 13 Strength saving throw. On a failed save, the mindwitness moves it up to 30 feet in any direction, and it is {@condition restrained} by the ray's telekinetic grip until the start of the mindwitness's next turn or until the mindwitness is {@condition incapacitated}.",
-						"If the target is an object weighing 300 pounds or less that isn't being worn or carried, it is telekinetically moved up to 30 feet in any direction. The mindwitness can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a door or a container."
+						"6. Telekinetic Ray: If the target is a creature, it must make a DC 13 Strength saving throw. On a failed save, the Lesser Mindwitness moves it up to 30 feet in any direction, and it is {@condition restrained} by the ray's telekinetic grip until the start of the Lesser Mindwitness's next turn or until the Lesser Mindwitness is {@condition incapacitated}.",
+						"If the target is an object weighing 300 pounds or less that isn't being worn or carried, it is telekinetically moved up to 30 feet in any direction. The Lesser Mindwitness can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a door or a container."
 					]
 				}
 			],
 			"familiar": true,
 			"variant": [{
 				"type": "variant",
-				"name": "Ardent Pseudodragon Familiar",
+				"name": "Mindwitness Familiar",
 				"entries": [
-					"Some Ardent pseudodragons are willing to serve spellcasters as a familiar. Such Ardent pseudodragons have the following trait.",
+					"Some Lesser indwitnesses can be bound to a worshipper of Cthulu, and are willing to serve these spellcasters as a familiar. Such Lesser Mindwitnesses have the following trait.",
 					{
 						"name": "Familiar",
 						"type": "entries",
 						"entries": [
-							"The Ardent pseudodragon can serve another creature as a familiar, forming a magic, telepathic bond with that willing companion. While the two are bonded, the companion can sense what the Ardent pseudodragon senses as long as they are within 1 mile of each other. While the Ardent pseudodragon is within 10 feet of its companion, the companion shares the Ardent pseudodragon's Magic Resistance trait. At any time and for any reason, the Ardent pseudodragon can end its service as a familiar, ending the telepathic bond."
+							"The Lesser Mindwitness can serve another creature as a familiar, forming a magic, telepathic bond with that willing companion. While the two are bonded, the companion can sense what the Lesser Mindwitness senses as long as they are within 1 mile of each other. At any time and for any reason, the Lesser Mindwitness can end its service as a familiar, ending the telepathic bond."
 						]
 					}
 				]
 			}],
 			"environment": [
-				"mountain",
-				"forest",
-				"hill",
-				"urban",
-				"desert",
-				"coastal"
+				"underdark",
 			]
 		},
 		{
