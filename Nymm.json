@@ -89,6 +89,29 @@
 						"If the target is an object weighing 300 pounds or less that isn't being worn or carried, it is telekinetically moved up to 30 feet in any direction. The mindwitness can also exert fine control on objects with this ray, such as manipulating a simple tool or opening a door or a container."
 					]
 				}
+			],
+			"familiar": true,
+			"variant": [{
+				"type": "variant",
+				"name": "Ardent Pseudodragon Familiar",
+				"entries": [
+					"Some Ardent pseudodragons are willing to serve spellcasters as a familiar. Such Ardent pseudodragons have the following trait.",
+					{
+						"name": "Familiar",
+						"type": "entries",
+						"entries": [
+							"The Ardent pseudodragon can serve another creature as a familiar, forming a magic, telepathic bond with that willing companion. While the two are bonded, the companion can sense what the Ardent pseudodragon senses as long as they are within 1 mile of each other. While the Ardent pseudodragon is within 10 feet of its companion, the companion shares the Ardent pseudodragon's Magic Resistance trait. At any time and for any reason, the Ardent pseudodragon can end its service as a familiar, ending the telepathic bond."
+						]
+					}
+				]
+			}],
+			"environment": [
+				"mountain",
+				"forest",
+				"hill",
+				"urban",
+				"desert",
+				"coastal"
 			]
 		},
 		{
